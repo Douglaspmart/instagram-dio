@@ -1,0 +1,40 @@
+.container {
+ width: 100vw;
+height: 100vh;
+background:whitesmoke;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+.box {
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    border: solid gray;
+    
+}
+
+.l {
+    text-align: start;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 9rem;
+    
+}
+.contas {
+    font-size: 20px;
+    text-align: start;
+    margin-left: 100px;
+    cursor: pointer;
+    color: blue;
+}
+
+.log {
+    font-style:italic;
+}
