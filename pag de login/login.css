@@ -16,7 +16,6 @@ align-items: center;
     flex-direction: column;
     align-items: center;
     border: solid gray;
-    
 }
 
 .l {
@@ -25,16 +24,30 @@ align-items: center;
     justify-content: space-around;
     flex-direction: column;
     height: 9rem;
-    
+    padding-top: 22px;    
 }
 .contas {
     font-size: 20px;
     text-align: start;
-    margin-left: 100px;
     cursor: pointer;
     color: blue;
+    padding-left: 20px;
 }
 
 .log {
     font-style:italic;
+}
+.foto {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    padding-top: 6px;
+    padding-bottom: 2px;
+}
+.gr {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    padding-left: 10px;
+    padding-top:20px;
 }
